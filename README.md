@@ -4,6 +4,18 @@ A framework for structured software development using multiple AI agents.
 This repo codifies a repeatable SDLC where each agent has a defined role,
 clear inputs/outputs, and mandatory quality gates before deployment.
 
+## Getting started
+
+```bash
+git clone <this-repo> && cd ai-sdlc-framework
+chmod +x bootstrap.sh
+./bootstrap.sh
+```
+
+The script asks for your project name and a one-sentence description,
+then prints a ready-to-paste prompt for Claude.ai that onboards you
+into the framework with your project context baked in.
+
 ## Philosophy
 
 - **Architect/Implementer split**: Planning and analysis happen in a
