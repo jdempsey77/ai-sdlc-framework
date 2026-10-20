@@ -1,0 +1,15 @@
+# release.yaml: the release contract (v1). Schema: ~/code/_reorg/repo_contract_audit.md.
+# Archived 2026-10-20 (conformance campaign): Jerry 09:05: kill (archive). Not deployed.
+contract: 1
+tier: 1
+branch: main
+test: null
+ci: false
+secrets: none
+deploy:
+  target: none
+  how: none
+  note: "archived 2026-10-20: not deployed"
+smoke:
+  command: null
+rollback: hand
